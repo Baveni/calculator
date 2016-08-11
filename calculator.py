@@ -3,8 +3,9 @@ print "Please puch in the numbers you want to calculate-->>"
 while True:
 
     x = raw_input("Please punch in the first number!")
-    y = raw_input("Please punch in the second number!")
     operator = raw_input("Please punch in youre operator!")
+    y = raw_input("Please punch in the second number!")
+
     x = float(x)
     y = float(y)
 
