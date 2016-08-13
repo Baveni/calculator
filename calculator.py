@@ -23,10 +23,10 @@ while answer == "Y":
 
     while True:
         print "if you want to perform more calculations, please type Y or N"
-        answer = raw_input()
-        if answer not in ("YN"):
+        answer = raw_input().upper()
+
+        if answer not in "YN":
             print "you have to type Y or N"
         else:
             break
 print "Thank you for using my calculator! Hope it served you well :)"
-
